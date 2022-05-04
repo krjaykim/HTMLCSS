@@ -1,0 +1,38 @@
+.group{
+    height: 500px;
+    width: 500px;
+
+}
+.header{
+    height: 10%;
+   
+    background-color: #ea4335;
+    /* 만약에 자식요소에게 아무것도 설정해주지 ㅇ낳으면 자식요소는 기본적으로 부모요소를 따른다. */
+}
+.nav{
+    height: 10%;
+ 
+    background-color: #ff5E00;
+}
+.side{
+    height: 60%;
+    width: 30%;
+    background-color: #4285f4;
+    float: left;
+}
+.section1{
+    height: 30%;
+ 
+    background-color: green;
+    
+}
+.section2{
+    height: 30%;
+
+    background-color: #FBBC05;
+}
+.footer{
+    height: 20%;
+ 
+    background-color: gray;
+}

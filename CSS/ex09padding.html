@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div{
+        width:100px;
+        height: 100px;    
+        color: whitesmoke;
+    }
+    #red{
+        background-color: crimson;
+        
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    #blue{
+        background-color: cornflowerblue;
+       padding-left: 100px;
+      
+
+       /* box-sizing 요소의크기를 화면에 표시 
+        (1) content-box : 기본값 content영역만을 크기의 기준으로
+        (2) border-box : content + padding + border 영역까지 
+                            더한 영역을 크기의 기준으로
+       
+       */
+    }
+    #green{
+        background-color: green;
+        padding-left: 200px;
+    }
+    #gray{
+        background-color: gray;
+        padding-left: 300px;
+        box-sizing: border-box;
+ }
+ .leaf{
+    background-color: green;
+    border-top-right-radius: 0%;
+        border-bottom-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 0%;
+ }
+</style>
+</head>
+<body>
+    <div id="red">빨간색!!</div>
+    <div id="blue">파란색!!!</div>
+    <div id="green">초록색!!!!</div>
+    <div id="gray">회색!!!!!</div>
+    <br><br><br>
+
+    <div class="leaf"></div>
+</body>
+</html>

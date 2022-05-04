@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        1. div 요소를 기준으로 자손선택자를 활용해서 span의 색을 빨간색으로 변경하시오.
+
+        2. div 요소를 기준으로 자손선택자를 활용해서 li요소 색을 파란색으로 변경
+
+        3. ol 요소를 기준으로 자식선택자를 활요해서 span요소의 글자색을 초록색으로 변경
+
+        4. 첫번째 li요소를 기준으로 근접후행 선택자를 활용해서 li요소의 글자색을 분홍색으로
+        */
+    div span{
+        color : red;
+    }
+    div li{
+        color : blue;
+    }
+    ol>span{
+        color : green;
+    }
+    
+    #first+li{
+        color:hotpink;
+    }
+    li~li{
+        color : purple;
+    }
+     
+    
+    </style>
+</head>
+<body>
+    <!-- 계층 선택자( 기준, 선택)
+    1. 자식 선택자 기준 > 선택
+    2. 자손 선택자 기준   선택
+    3. 후행 선택자 기준 ~ 선택
+    4. 근접 선택자 기준 + 선택
+-->
+
+<strong>연수생 수칙 !</strong>
+<div>
+<ol>
+    <li id ="first">지각 하지 않기</li>
+    <li>결석 하지 않기</li>
+    <span>(불가피할 땐 꼭! 담임 선생님께 말하기)</span>
+    <li>복습하기</li>
+</ol>
+</div>
+</body>
+</html>

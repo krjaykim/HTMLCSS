@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+    /* display : block
+    기본 값이 무조건 한 줄을 차지하고 있는 요소
+    width, height 설정이 가능하다.
+    */
+
+    /* display : inline
+    내가 담은 컨텐츠까지만 크기로 가지는 요소
+    width, height 설정이 불가능하다.
+    공간이 허용된다면 옆에 다른 태그들을 배치할 수 있다. 
+    */
+    p,span{
+        width: 200px;
+        height :200px;
+
+    }
+    p{
+       
+        background-color : skyblue;
+        display: inline;
+    }
+    span{
+        background-color: salmon;
+        display: block;
+    }
+</style>
+
+</head>
+
+<body>
+    <p>p태그</p> 
+    <p>p태그</p>
+    <p>p태그</p>
+
+    <span>span태그</span>
+    <span>span태그</span>
+    <span>span태그</span>
+</body>
+</html>

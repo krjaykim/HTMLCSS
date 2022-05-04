@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. 전체선택자 -> *로 표시 */
+        *{
+            color:rgb(103, 250, 103);
+        }
+        /* 2. 태그선택자 -> 태그 이름으로 표시  */
+        li{
+            color:rgb(111, 128, 77);
+        }
+        p{
+            color:rgb(23, 23, 105);
+        }
+
+        .food{
+            color:rgb(31, 25, 25);
+        }
+        #eal{
+            color:red;
+        }
+        /* 선택자들을 구분해서 지정해줘야하는 경우
+        >> 클래스, 아이디
+
+        클래스 : 중복 가능 , 재사용 가능
+        아이디 : 중복 불가능, 재사용 불가능
+        (body 태그 내에 딱!!! 하나만 존재)
+        */
+        /* 3. 클래스 선택 -> . 로 표시  */
+        /* 4. 아이디 선택자 -> # 으로 표시 */
+
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <p>웹페이지를 꾸며주는 스타일 시트 언어</p>
+    <ul>
+        <li>CSS 기본 구조</li>
+        <li>CSS 선택자</li>
+        <li>CSS 스타일</li>
+    </ul>
+
+    <h1 class="food" id="food-title">이 번 주 에 뭐 먹 지?</h1>
+    <ul>
+        <li class="food" id="salmon">연어</li>
+        <li class="food" id="eal">장어</li>
+        <li class="food" id="meat">삼쏘</li>
+    </ul>
+
+
+</body>
+</html>
